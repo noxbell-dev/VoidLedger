@@ -10,6 +10,10 @@ A Windows desktop app for tracking Warframe relic values. Pulls relic drop table
 - Mark relics as owned, filter by vaulted/unvaulted, search by name
 - "Squad" mode - select up to 4 relics to compare side by side
 
+## Requirements
+
+- [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0)
+
 ## Notes
 
 This is an unofficial, fan-made tool and isn't affiliated with Digital Extremes or Warframe Market & Warframe Drop Data. It's a light API consumer - pricing pulls are rate-limited (2 req/sec) to be a good citizen of the Warframe Market API, at the cost of it taking a couple minutes.
